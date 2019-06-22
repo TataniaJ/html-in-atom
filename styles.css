@@ -1,0 +1,33 @@
+.heading-main {
+  color: Gold;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  .dashed {border-style: dashed;}
+}
+body {
+  background-color: black;
+}
+.intro {
+  color: gold;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+.heading-secondary {
+  color: gold;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    background: white;
+  }
+  .Photo-Gallery{
+    margin: 10px 50px;
+  }
+.Photo-Gallery img src {
+  width: 230px;
+  padding: 10px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
